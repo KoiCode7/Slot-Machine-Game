@@ -40,7 +40,7 @@
     }
 
     getRandomImage() {
-      const images = ["img/seven.png", "img/bell.png", "img/cherry.png"];
+      const images = ["img/bamboos (Custom).jpg", "img/castle (Custom).jpg", "img/downtown (Custom).jpg", "img/mtFuji (Custom).jpg", "img/temple (Custom).jpg"];
       return images[Math.floor(Math.random() * images.length)];
     }
 
