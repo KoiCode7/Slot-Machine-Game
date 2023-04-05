@@ -41,9 +41,10 @@
 
     getRandomImage() {
       const images = [
-        "img/downtown (Custom).jpg",
         "img/mtFuji (Custom).jpg",
-        "img/temple (Custom).jpg" /*"img/bamboos (Custom).jpg",*/ /*"img/castle (Custom).jpg",*/,
+        "img/temple (Custom).jpg",
+        "img/bamboos (Custom).jpg" /*"img/castle (Custom).jpg",*/,
+        /* "img/downtown (Custom).jpg", */
       ];
       return images[Math.floor(Math.random() * images.length)];
     }
